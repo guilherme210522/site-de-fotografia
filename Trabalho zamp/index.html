@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Fotografia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #ffffff;
+            padding: 0.5em; /* Ajustado para 0.5em */
+            text-align: center;
+            position: relative; /* Para posicionamento absoluto do ícone */
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 60px; /* Ajustar conforme necessário */
+            height: 50px; /* Ajustar conforme necessário */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2em;
+        }
+        .projetos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .projeto {
+            border: 1px solid #dddddd;
+            padding: 1em;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .projeto img {
+            width: 100%; 
+            height: auto; 
+        }
+        footer {
+            background-color: #4CAF50;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            .container {
+                padding: 1em;
+            }
+            footer {
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Logotipo_Colégio-Zampieri.ico" alt="Ícone do site">
+        <h3>Fotografia Do Segundo Médio</h3>
+    </header>
+    <div class="container">
+        <section id="projetos">
+            <div class="projetos">
+                <div class="projeto">
+                    <h3>Projeto 1</h3>
+                    <img src="IMG-20240522-WA0023.jpg" alt="Projeto 1" style="width:100%">
+                    <p>Descrição do projeto .</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 2</h3>
+                    <img src="IMG-20240522-WA0027.jpg" alt="Projeto 1" style="width:100%">
+                    <p>Descrição do projeto .</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 3</h3>
+                    <img src="IMG-20240523-WA0047.jpg" alt="Projeto 2" style="width:100%">
+                    <p>Descrição do projeto .</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 4</h3>
+                    <img src="IMG-20240523-WA0046.jpg" alt="Projeto 2" style="width:100%">
+                    <p>Descrição do projeto .</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 5</h3>
+                    <img src="IMG-20240523-WA0045.jpg" alt="Projeto 1" style="width:100%">
+                    <p>Descrição do projeto .</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 6</h3>
+                    <img src="IMG-20240523-WA0048.jpg" alt="Projeto 3" style="width:100%">
+                    <p>Descrição do projeto .</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 7</h3>
+                    <img src="Imagem do WhatsApp de 2024-05-23 à(s) 21.16.38_d5eb63dd.jpg" alt="Projeto 3" style="width:100%">
+                    <p>Descrição do projeto .</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 8</h3>
+                    <img src="Imagem do WhatsApp de 2024-05-23 à(s) 21.16.40_ea574dae.jpg" alt="Projeto 3" style="width:100%">
+                    <p>Descrição do projeto .</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 9</h3>
+                    <img src="Imagem do WhatsApp de 2024-05-23 à(s) 21.16.40_7b3e8c68.jpg" alt="Projeto 3" style="width:100%">
+                    <p>Descrição do projeto.</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 10</h3>
+                    <img src="lucas.jpg" alt="Projeto 3" style="width:100%">
+                    <p>Descrição do projeto.</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 11</h3>
+                    <img src="bento.jpg" alt="Projeto 3" style="width:100%">
+                    <p>Descrição do projeto.</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 12</h3>
+                    <img src="pedro.jpg" alt="Projeto 3" style="width:100%">
+                    <p>Descrição do projeto.</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 13</h3>
+                    <img src="favacho.jpg" alt="Projeto 3" style="width:100%">
+                    <p>Descrição do projeto.</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 14</h3>
+                    <img src="reger.jpg" alt="Projeto 3" style="width:100%">
+                    <p>Descrição do projeto.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; Fotografia Dos Alunos Do Colégio Zampieri</p>
+    </footer>
+</body>
+</html>
